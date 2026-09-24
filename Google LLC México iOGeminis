@@ -1,0 +1,7 @@
+echo "# Google" >> README.md 
+git init 
+git add README.md 
+git commit -m "primer commit" 
+git branch -M main 
+git remote add origin git@github.com:cesarld963-code/Google.git
+git push -u origin main
